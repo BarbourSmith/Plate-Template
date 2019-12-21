@@ -2,13 +2,107 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Plate Template",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 237786,
+            "name": "Cut Aways",
+            "x": 162,
+            "y": 209,
+            "uniqueID": 182631,
             "ioValues": [],
-            "topLevel": true,
+            "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 139,
+                    "y": 232,
+                    "uniqueID": 942702,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 288,
+                    "y": 174,
+                    "uniqueID": 630194,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 305,
+                    "y": 245,
+                    "uniqueID": 346764,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 724,
+                    "y": 40,
+                    "uniqueID": 662990,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 69.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 977,
+                    "y": 167,
+                    "uniqueID": 227571,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -17,9 +111,92 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                null,
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 662990,
+                    "ap2ID": 227571
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 227571
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Plate Template",
+            "x": 0,
+            "y": 0,
+            "uniqueID": 237786,
+            "ioValues": [],
+            "topLevel": true,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 142,
+                    "y": 78,
+                    "uniqueID": 911824,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 285
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Cut Aways",
+                    "x": 162,
+                    "y": 209,
+                    "uniqueID": 182631,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 686,
+                    "y": 76,
+                    "uniqueID": 377487,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 911824,
+                    "ap2ID": 377487
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 377487
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "5.8"
+    "circleSegmentSize": "1"
 }

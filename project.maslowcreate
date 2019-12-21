@@ -18,7 +18,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 40
+                            "ioValue": 60
                         }
                     ]
                 },
@@ -31,7 +31,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 40
+                            "ioValue": 60
                         }
                     ]
                 },
@@ -61,7 +61,7 @@
                     "ioValues": [
                         {
                             "name": "D",
-                            "ioValue": 40
+                            "ioValue": 60
                         }
                     ],
                     "currentEquation": "D/2"
@@ -117,11 +117,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 20
+                            "ioValue": 30
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 20
+                            "ioValue": 30
                         },
                         {
                             "name": "zDist",
@@ -181,11 +181,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 50
+                            "ioValue": 40
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 50
+                            "ioValue": 40
                         },
                         {
                             "name": "zDist",

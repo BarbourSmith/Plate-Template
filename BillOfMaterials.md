@@ -2,6 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|M6 Locknut|1|$0.05|https://www.mcmaster.com/90576a115|
+|Joint Connector|1|$2.25|https://www.woodcraft.com/products/joint-connector-small-2-1-2-to-3-1-4|
+|Total: |2|$2.30| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $6.90

@@ -439,6 +439,26 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Latch",
+            "x": 151,
+            "y": 227,
+            "uniqueID": 397726,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Plate Template",
             "x": 0,
             "y": 0,
@@ -465,6 +485,14 @@
                     "x": 145,
                     "y": 143,
                     "uniqueID": 182631,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Latch",
+                    "x": 151,
+                    "y": 227,
+                    "uniqueID": 397726,
                     "ioValues": []
                 },
                 {

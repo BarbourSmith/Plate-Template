@@ -477,7 +477,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 0
+                            "ioValue": -45
                         }
                     ]
                 },
@@ -490,15 +490,15 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 60
+                            "ioValue": 45
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 60
+                            "ioValue": 20
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 3
                         }
                     ]
                 },

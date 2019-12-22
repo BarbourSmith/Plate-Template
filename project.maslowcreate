@@ -217,8 +217,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 886,
-                    "y": 224,
+                    "x": 876,
+                    "y": 171,
                     "uniqueID": 942507,
                     "ioValues": [
                         {
@@ -238,8 +238,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 953,
-                    "y": 264,
+                    "x": 946,
+                    "y": 212,
                     "uniqueID": 290924,
                     "ioValues": [
                         {
@@ -268,10 +268,6 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 4",
                             "ioValue": 10
                         },
@@ -281,6 +277,10 @@
                         },
                         {
                             "name": "3D shape 6",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 7",
                             "ioValue": 10
                         }
                     ],
@@ -381,13 +381,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 564763,
-                    "ap2ID": 227571
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 564763,
@@ -406,6 +399,13 @@
                     "ap2Primary": true,
                     "ap1ID": 564763,
                     "ap2ID": 290924
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 7",
+                    "ap2Primary": false,
+                    "ap1ID": 564763,
+                    "ap2ID": 227571
                 },
                 {
                     "ap1Name": "geometry",

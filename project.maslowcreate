@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Cut Aways",
-            "x": 162,
-            "y": 209,
+            "x": 145,
+            "y": 143,
             "uniqueID": 182631,
             "ioValues": [],
             "topLevel": false,
@@ -462,8 +462,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cut Aways",
-                    "x": 162,
-                    "y": 209,
+                    "x": 145,
+                    "y": 143,
                     "uniqueID": 182631,
                     "ioValues": []
                 },

@@ -38,8 +38,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 139,
-                    "y": 232,
+                    "x": 162,
+                    "y": 166,
                     "uniqueID": 942702,
                     "ioValues": [
                         {
@@ -49,6 +49,23 @@
                         {
                             "name": "y length",
                             "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 118,
+                    "y": 270,
+                    "uniqueID": 349245,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 500
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 4
                         }
                     ]
                 },
@@ -90,8 +107,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 305,
-                    "y": 245,
+                    "x": 314,
+                    "y": 218,
                     "uniqueID": 346764,
                     "ioValues": [
                         {
@@ -101,6 +118,27 @@
                         {
                             "name": "yDist",
                             "ioValue": 5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 294,
+                    "y": 284,
+                    "uniqueID": 199723,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 250
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -257,6 +295,27 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 1037,
+                    "y": 271,
+                    "uniqueID": 324370,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 45
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 1143,
@@ -280,7 +339,7 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 7",
+                            "name": "3D shape 8",
                             "ioValue": 10
                         }
                     ],
@@ -331,6 +390,13 @@
                     "ap2ID": 630194
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 349245,
+                    "ap2ID": 199723
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
                     "ap2Primary": false,
@@ -357,6 +423,13 @@
                     "ap2Primary": false,
                     "ap1ID": 346764,
                     "ap2ID": 176200
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 199723,
+                    "ap2ID": 324370
                 },
                 {
                     "ap1Name": "geometry",
@@ -402,13 +475,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 7",
-                    "ap2Primary": false,
-                    "ap1ID": 564763,
-                    "ap2ID": 227571
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 4",
                     "ap2Primary": false,
                     "ap1ID": 687154,
@@ -426,6 +492,13 @@
                     "ap2Name": "3D shape 6",
                     "ap2Primary": false,
                     "ap1ID": 290924,
+                    "ap2ID": 227571
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 8",
+                    "ap2Primary": false,
+                    "ap1ID": 324370,
                     "ap2ID": 227571
                 },
                 {
@@ -456,7 +529,7 @@
                     "ioValues": [
                         {
                             "name": "Spacing",
-                            "ioValue": 40
+                            "ioValue": 30
                         }
                     ]
                 },
@@ -490,11 +563,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 45
+                            "ioValue": 70
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 20
+                            "ioValue": 50
                         },
                         {
                             "name": "zDist",

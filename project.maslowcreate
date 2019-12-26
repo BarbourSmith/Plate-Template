@@ -349,7 +349,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -579,7 +579,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -688,7 +688,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -738,5 +738,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "1"
+    "circleSegmentSize": "5.8"
 }

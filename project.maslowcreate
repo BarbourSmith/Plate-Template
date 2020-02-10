@@ -349,7 +349,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -534,6 +534,15 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Holt Tight Latch",
+                    "x": 260,
+                    "y": 214,
+                    "uniqueID": 960775,
+                    "projectID": "239431849",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 458,
@@ -555,12 +564,37 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 453,
+                    "y": 214,
+                    "uniqueID": 654374,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -45
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 677,
                     "y": 140,
                     "uniqueID": 653819,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 80
@@ -579,7 +613,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -592,12 +626,13 @@
                     "ap2ID": 102184
                 },
                 {
-                    "ap1Name": "geometry",
+                    "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 102184,
-                    "ap2ID": 653819
+                    "ap1ID": 960775,
+                    "ap2ID": 654374
                 },
+                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
@@ -688,7 +723,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],

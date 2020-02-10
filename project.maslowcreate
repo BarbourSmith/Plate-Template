@@ -513,8 +513,8 @@
         {
             "atomType": "Molecule",
             "name": "Latch",
-            "x": 151,
-            "y": 227,
+            "x": 153,
+            "y": 230,
             "uniqueID": 397726,
             "ioValues": [],
             "topLevel": false,
@@ -597,11 +597,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 60
+                            "ioValue": 80
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 3
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -677,8 +677,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Latch",
-                    "x": 151,
-                    "y": 227,
+                    "x": 153,
+                    "y": 230,
                     "uniqueID": 397726,
                     "ioValues": []
                 },

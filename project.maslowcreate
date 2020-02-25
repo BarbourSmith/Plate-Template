@@ -3,12 +3,19 @@
         {
             "atomType": "Molecule",
             "name": "Cut Aways",
-            "x": 145,
-            "y": 143,
+            "x": 0.1281112737920937,
+            "y": 0.3486590038314176,
             "uniqueID": 182631,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Constant",
                     "name": "Corner Diameter",
@@ -344,13 +351,6 @@
                         }
                     ],
                     "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -513,12 +513,19 @@
         {
             "atomType": "Molecule",
             "name": "Latch",
-            "x": 153,
-            "y": 230,
+            "x": 0.42679355783308925,
+            "y": 0.18773946360153254,
             "uniqueID": 397726,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Joint Connector",
@@ -535,7 +542,7 @@
                 },
                 {
                     "atomType": "GitHubMolecule",
-                    "name": "Holt Tight Latch",
+                    "name": "Hold Tight Latch",
                     "x": 260,
                     "y": 214,
                     "uniqueID": 960775,
@@ -604,13 +611,6 @@
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -654,47 +654,34 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 142,
-                    "y": 78,
-                    "uniqueID": 911824,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 285
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Cut Aways",
-                    "x": 145,
-                    "y": 143,
+                    "x": 0.1281112737920937,
+                    "y": 0.3486590038314176,
                     "uniqueID": 182631,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Latch",
-                    "x": 153,
-                    "y": 230,
+                    "x": 0.42679355783308925,
+                    "y": 0.18773946360153254,
                     "uniqueID": 397726,
                     "ioValues": []
                 },
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 402,
-                    "y": 97,
+                    "x": 0.2752562225475842,
+                    "y": 0.48659003831417624,
                     "uniqueID": 141247,
                     "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 645,
-                    "y": 74,
+                    "x": 0.38653001464128844,
+                    "y": 0.49808429118773945,
                     "uniqueID": 377487,
                     "ioValues": [
                         {
@@ -704,23 +691,32 @@
                     ]
                 },
                 {
-                    "atomType": "Tag",
-                    "name": "Add Tag",
-                    "x": 790,
-                    "y": 98,
-                    "uniqueID": 824882,
+                    "atomType": "GitHubMolecule",
+                    "name": "Voxels",
+                    "x": 0.5351390922401171,
+                    "y": 0.3639846743295019,
+                    "uniqueID": 470739,
+                    "projectID": "242066537",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.1068814055636896,
+                    "y": 0.7739463601532567,
+                    "uniqueID": 911824,
                     "ioValues": [
                         {
-                            "name": "tag",
-                            "ioValue": "Plate"
+                            "name": "diameter",
+                            "ioValue": 285
                         }
                     ]
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 911,
-                    "y": 143,
+                    "x": 0.7430453879941434,
+                    "y": 0.39080459770114945,
                     "uniqueID": 684697,
                     "ioValues": [
                         {
@@ -735,21 +731,54 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 0.5578330893118594,
+                    "y": 0.6590038314176245,
+                    "uniqueID": 824882,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Plate"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Voxels",
+                    "x": 0.46046852122986826,
+                    "y": 0.8084291187739464,
+                    "uniqueID": 776028,
+                    "projectID": "242066537",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Find Open Edges",
+                    "x": 0.5966325036603221,
+                    "y": 0.8620689655172414,
+                    "uniqueID": 660736,
+                    "projectID": "242930715",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Voxels",
+                    "x": 0.8550512445095168,
+                    "y": 0.6973180076628352,
+                    "uniqueID": 576384,
+                    "projectID": "242066537",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
                     "ioValues": []
                 }
             ],
             "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 911824,
-                    "ap2ID": 141247
-                },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry2",
@@ -763,6 +792,13 @@
                     "ap2Primary": false,
                     "ap1ID": 397726,
                     "ap2ID": 684697
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 397726,
+                    "ap2ID": 470739
                 },
                 {
                     "ap1Name": "geometry",
@@ -780,16 +816,44 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 3",
+                    "ap2Name": "Geometry",
                     "ap2Primary": false,
-                    "ap1ID": 824882,
-                    "ap2ID": 684697
+                    "ap1ID": 377487,
+                    "ap2ID": 776028
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 377487,
+                    "ap2ID": 660736
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 911824,
+                    "ap2ID": 141247
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 684697
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 684697,
+                    "ap2ID": 576384
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 824882,
+                    "ap2ID": 684697
                 }
             ],
             "fileTypeVersion": 1

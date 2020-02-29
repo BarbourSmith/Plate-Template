@@ -746,11 +746,11 @@
                 {
                     "atomType": "Code",
                     "name": "Code",
-                    "x": 0.2847730600292826,
-                    "y": 0.8199233716475096,
+                    "x": 0.2562225475841874,
+                    "y": 0.8237547892720306,
                     "uniqueID": 348162,
                     "ioValues": [],
-                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(input){\n  return mycircle(10)        //return must be geometry;\n}\n\nfunction mycircle(radius){\n    return Circle(radius);\n}\n\nreturn main(input)"
+                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(input){\n  return myExtrude(myTranslate(myRectangle(50, 50), 10,10,10), 20);        //return must be geometry;\n}\n\nfunction myCircle(diameter){\n\t\n    const circumference  = 3.14*diameter;\n    const numberOfSegments = Math.min(Math.max(parseInt( circumference / 4.6 ),5), 100)\n\t\n    return Circle.ofDiameter(diameter, {sides: numberOfSegments});\n}\n\nfunction myRectangle(x, y){\n\treturn Square(x, y);\n}\n\nfunction myTranslate(inputShape, x, y, z){\n\treturn inputShape.move(x,y,z);\n}\n\nfunction myExtrude(shape, distance){\n\treturn shape.extrude(distance);\n}\n\nfunction shrinkWrap(values){\n\treturn Hull(...values);\n}\n\nreturn main(input)"
                 },
                 {
                     "atomType": "GitHubMolecule",

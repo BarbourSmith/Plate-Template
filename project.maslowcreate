@@ -12,8 +12,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.14128843338213762,
-                    "y": 0.19540229885057472,
+                    "x": 0.15300146412884333,
+                    "y": 0.21839080459770116,
                     "uniqueID": 871008,
                     "ioValues": [
                         {
@@ -38,7 +38,7 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.32210834553440704,
+                    "x": 0.32650073206442165,
                     "y": 0.16475095785440613,
                     "uniqueID": 349245,
                     "ioValues": [
@@ -55,8 +55,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.22840409956076133,
-                    "y": 0.35249042145593873,
+                    "x": 0.24743777452415813,
+                    "y": 0.3371647509578544,
                     "uniqueID": 326341,
                     "ioValues": [
                         {
@@ -76,8 +76,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 0.12298682284040995,
-                    "y": 0.4176245210727969,
+                    "x": 0.14275256222547583,
+                    "y": 0.4636015325670498,
                     "uniqueID": 914940,
                     "ioValues": [
                         {
@@ -90,8 +90,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.49853587115666176,
-                    "y": 0.13793103448275862,
+                    "x": 0.5021961932650073,
+                    "y": 0.16091954022988506,
                     "uniqueID": 199723,
                     "ioValues": [
                         {
@@ -109,10 +109,19 @@
                     ]
                 },
                 {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.4421669106881405,
+                    "y": 0.4137931034482759,
+                    "uniqueID": 700650,
+                    "ioValues": [],
+                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(input){\n  return cutAways();\n}\n\n\n\n\n\n\nfunction cutAways(){\n    const shape1 = myTranslate(myCircle(60), 60/2,60/2,0);\n    const shape2 = myTranslate(myRectangle(10,10), 300, 5, 0);\n    const shape3 = myTranslate(myRectangle(10,10), 5, 300, 0);\n    \n    const oneWing = shrinkWrap([shape1, shape2, shape3]);\n    const wing1 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 90);\n    const wing2 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 180);\n    const wing3 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 270);\n    return myAssemble([wing1, wing2, wing3]);\n}\n\n\n\n\n\n\nfunction myCircle(diameter){\n\t\n    const circumference  = 3.14*diameter;\n    const numberOfSegments = Math.min(Math.max(parseInt( circumference / 4.6 ),5), 100)\n\t\n    return Circle.ofDiameter(diameter, {sides: numberOfSegments});\n}\n\nfunction myRectangle(x, y){\n\treturn Square(x, y);\n}\n\nfunction myTranslate(inputShape, x, y, z){\n\treturn inputShape.move(x,y,z);\n}\n\nfunction myExtrude(shape, distance){\n\treturn shape.extrude(distance);\n}\n\nfunction shrinkWrap(values){\n\treturn Hull(...values);\n}\n\nfunction myRotate(shape, x, y, z){\n\treturn shape.rotateX(x).rotateY(y).rotateZ(z);\n}\n\nfunction myAssemble(shapes){\n\treturn Assembly(...shapes)\n}\n\nreturn main(input)"
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.2781844802342606,
-                    "y": 0.6475095785440613,
+                    "x": 0.26207906295754024,
+                    "y": 0.5708812260536399,
                     "uniqueID": 346764,
                     "ioValues": [
                         {
@@ -153,8 +162,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.6800878477306003,
-                    "y": 0.3448275862068966,
+                    "x": 0.6815519765739385,
+                    "y": 0.32567049808429116,
                     "uniqueID": 687154,
                     "ioValues": [
                         {
@@ -174,8 +183,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 0.12664714494875548,
-                    "y": 0.7777777777777777,
+                    "x": 0.1251830161054173,
+                    "y": 0.7854406130268199,
                     "uniqueID": 942702,
                     "ioValues": [
                         {
@@ -189,61 +198,10 @@
                     ]
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.6925329428989752,
-                    "y": 0.5172413793103449,
-                    "uniqueID": 942507,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 180
-                        }
-                    ]
-                },
-                {
-                    "atomType": "ShrinkWrap",
-                    "name": "Shrink Wrap",
-                    "x": 0.44363103953147875,
-                    "y": 0.8084291187739464,
-                    "uniqueID": 176200,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 5",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 5",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
-                            "ioValue": 10
-                        }
-                    ],
-                    "closedSelection": 0
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.30453879941434847,
-                    "y": 0.896551724137931,
+                    "x": 0.2767203513909224,
+                    "y": 0.7816091954022989,
                     "uniqueID": 630194,
                     "ioValues": [
                         {
@@ -257,6 +215,27 @@
                         {
                             "name": "zDist",
                             "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.6932650073206442,
+                    "y": 0.5095785440613027,
+                    "uniqueID": 942507,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 180
                         }
                     ]
                 },
@@ -291,10 +270,40 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "ShrinkWrap",
+                    "name": "Shrink Wrap",
+                    "x": 0.4421669106881405,
+                    "y": 0.8544061302681992,
+                    "uniqueID": 176200,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 5",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 5",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        }
+                    ],
+                    "closedSelection": 0
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.5622254758418741,
-                    "y": 0.7739463601532567,
+                    "x": 0.568814055636896,
+                    "y": 0.793103448275862,
                     "uniqueID": 564763,
                     "ioValues": [
                         {
@@ -315,7 +324,7 @@
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 0.6837481698389458,
-                    "y": 0.7203065134099617,
+                    "y": 0.7318007662835249,
                     "uniqueID": 290924,
                     "ioValues": [
                         {
@@ -447,20 +456,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 5",
-                    "ap2Primary": false,
-                    "ap1ID": 942507,
-                    "ap2ID": 227571
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 176200,
-                    "ap2ID": 564763
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 630194,
@@ -468,9 +463,23 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 942507,
+                    "ap2ID": 227571
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 227571
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 176200,
+                    "ap2ID": 564763
                 },
                 {
                     "ap1Name": "geometry",
@@ -513,8 +522,8 @@
         {
             "atomType": "Molecule",
             "name": "Latch",
-            "x": 0.42679355783308925,
-            "y": 0.18773946360153254,
+            "x": 0.424597364568082,
+            "y": 0.1685823754789272,
             "uniqueID": 397726,
             "ioValues": [],
             "topLevel": false,
@@ -664,8 +673,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Latch",
-                    "x": 0.42679355783308925,
-                    "y": 0.18773946360153254,
+                    "x": 0.424597364568082,
+                    "y": 0.1685823754789272,
                     "uniqueID": 397726,
                     "ioValues": []
                 },
@@ -746,8 +755,8 @@
                 {
                     "atomType": "Code",
                     "name": "Code",
-                    "x": 0.2562225475841874,
-                    "y": 0.8237547892720306,
+                    "x": 0.2679355783308931,
+                    "y": 0.8122605363984674,
                     "uniqueID": 348162,
                     "ioValues": [],
                     "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(input){\n  return myExtrude(myTranslate(myRectangle(50, 50), 10,10,10), 20);        //return must be geometry;\n}\n\nfunction myCircle(diameter){\n\t\n    const circumference  = 3.14*diameter;\n    const numberOfSegments = Math.min(Math.max(parseInt( circumference / 4.6 ),5), 100)\n\t\n    return Circle.ofDiameter(diameter, {sides: numberOfSegments});\n}\n\nfunction myRectangle(x, y){\n\treturn Square(x, y);\n}\n\nfunction myTranslate(inputShape, x, y, z){\n\treturn inputShape.move(x,y,z);\n}\n\nfunction myExtrude(shape, distance){\n\treturn shape.extrude(distance);\n}\n\nfunction shrinkWrap(values){\n\treturn Hull(...values);\n}\n\nreturn main(input)"

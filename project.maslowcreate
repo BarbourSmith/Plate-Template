@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Linear Rod Holes",
-            "x": 0.7855051244509517,
-            "y": 0.9042145593869733,
+            "x": 0.7774524158125915,
+            "y": 0.89272030651341,
             "uniqueID": 105526,
             "ioValues": [],
             "topLevel": false,
@@ -12,7 +12,7 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.30819912152269396,
+                    "x": 0.30600292825768666,
                     "y": 0.22605363984674332,
                     "uniqueID": 311165,
                     "ioValues": [
@@ -22,7 +22,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 75
+                            "ioValue": 95
                         },
                         {
                             "name": "zDist",
@@ -74,7 +74,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -75
+                            "ioValue": -95
                         },
                         {
                             "name": "zDist",
@@ -487,8 +487,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Linear Rod Holes",
-                    "x": 0.7855051244509517,
-                    "y": 0.9042145593869733,
+                    "x": 0.7774524158125915,
+                    "y": 0.89272030651341,
                     "uniqueID": 105526,
                     "ioValues": []
                 }

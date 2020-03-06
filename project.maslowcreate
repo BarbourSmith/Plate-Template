@@ -2,9 +2,131 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Linear Rod Holes",
+            "x": 0.7855051244509517,
+            "y": 0.9042145593869733,
+            "uniqueID": 105526,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.30819912152269396,
+                    "y": 0.22605363984674332,
+                    "uniqueID": 311165,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.4890190336749634,
+                    "y": 0.3065134099616858,
+                    "uniqueID": 556334,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.19838945827232798,
+                    "y": 0.5440613026819924,
+                    "uniqueID": 648725,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 25
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.30014641288433386,
+                    "y": 0.6475095785440613,
+                    "uniqueID": 676325,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 311165,
+                    "ap2ID": 556334
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 648725,
+                    "ap2ID": 676325
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 648725,
+                    "ap2ID": 311165
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 676325,
+                    "ap2ID": 556334
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Cut Aways",
-            "x": 0.1281112737920937,
-            "y": 0.3486590038314176,
+            "x": 0.12005856515373352,
+            "y": 0.24137931034482757,
             "uniqueID": 182631,
             "ioValues": [],
             "topLevel": false,
@@ -351,6 +473,14 @@
                             "ioValue": 69.5
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Linear Rod Holes",
+                    "x": 0.7855051244509517,
+                    "y": 0.9042145593869733,
+                    "uniqueID": 105526,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -522,8 +652,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cut Aways",
-                    "x": 0.1281112737920937,
-                    "y": 0.3486590038314176,
+                    "x": 0.12005856515373352,
+                    "y": 0.24137931034482757,
                     "uniqueID": 182631,
                     "ioValues": []
                 },

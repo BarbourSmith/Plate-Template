@@ -22,7 +22,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 75
                         },
                         {
                             "name": "zDist",
@@ -74,7 +74,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -75
                         },
                         {
                             "name": "zDist",
@@ -97,6 +97,12 @@
                     "ap2Primary": false,
                     "ap1ID": 311165,
                     "ap2ID": 556334
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 556334
                 },
                 {
                     "ap1Name": "geometry",
@@ -125,8 +131,8 @@
         {
             "atomType": "Molecule",
             "name": "Cut Aways",
-            "x": 0.12005856515373352,
-            "y": 0.24137931034482757,
+            "x": 0.1281112737920937,
+            "y": 0.2796934865900383,
             "uniqueID": 182631,
             "ioValues": [],
             "topLevel": false,
@@ -377,6 +383,10 @@
                         },
                         {
                             "name": "3D shape 8",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 10",
                             "ioValue": 10
                         }
                     ],
@@ -636,6 +646,13 @@
                     "ap2Primary": false,
                     "ap1ID": 662990,
                     "ap2ID": 227571
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 10",
+                    "ap2Primary": false,
+                    "ap1ID": 105526,
+                    "ap2ID": 227571
                 }
             ],
             "fileTypeVersion": 1
@@ -652,8 +669,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cut Aways",
-                    "x": 0.12005856515373352,
-                    "y": 0.24137931034482757,
+                    "x": 0.1281112737920937,
+                    "y": 0.2796934865900383,
                     "uniqueID": 182631,
                     "ioValues": []
                 },

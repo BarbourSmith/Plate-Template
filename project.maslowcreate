@@ -675,36 +675,40 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.2781844802342606,
-                    "y": 0.4904214559386973,
-                    "uniqueID": 141247,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.38726207906295756,
-                    "y": 0.5363984674329502,
-                    "uniqueID": 377487,
+                    "atomType": "RegularPolygon",
+                    "name": "RegularPolygon",
+                    "x": 0.20351390922401172,
+                    "y": 0.7241379310344828,
+                    "uniqueID": 561656,
                     "ioValues": [
                         {
-                            "name": "height",
-                            "ioValue": 6
+                            "name": "number of sides",
+                            "ioValue": 8
+                        },
+                        {
+                            "name": "diameter",
+                            "ioValue": 285
                         }
                     ]
                 },
                 {
-                    "atomType": "Tag",
-                    "name": "Add Tag",
-                    "x": 0.5695461200585652,
-                    "y": 0.5210727969348659,
-                    "uniqueID": 824882,
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.4019033674963397,
+                    "y": 0.685823754789272,
+                    "uniqueID": 247736,
                     "ioValues": [
                         {
-                            "name": "tag",
-                            "ioValue": "Plate"
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 22.5
                         }
                     ]
                 },
@@ -722,40 +726,36 @@
                     ]
                 },
                 {
-                    "atomType": "RegularPolygon",
-                    "name": "RegularPolygon",
-                    "x": 0.24890190336749635,
-                    "y": 0.8582375478927203,
-                    "uniqueID": 561656,
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.5988286969253294,
+                    "y": 0.5900383141762452,
+                    "uniqueID": 141247,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.7349926793557834,
+                    "y": 0.5287356321839081,
+                    "uniqueID": 377487,
                     "ioValues": [
                         {
-                            "name": "number of sides",
-                            "ioValue": 8
-                        },
-                        {
-                            "name": "diameter",
-                            "ioValue": 285
+                            "name": "height",
+                            "ioValue": 6
                         }
                     ]
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.42093704245973645,
-                    "y": 0.793103448275862,
-                    "uniqueID": 247736,
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 0.8374816983894583,
+                    "y": 0.4406130268199233,
+                    "uniqueID": 824882,
                     "ioValues": [
                         {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
+                            "name": "tag",
+                            "ioValue": "Plate"
                         }
                     ]
                 },
@@ -779,6 +779,20 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
+                    "ap1ID": 561656,
+                    "ap2ID": 247736
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 247736,
+                    "ap2ID": 141247
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 141247,
                     "ap2ID": 377487
                 },
@@ -794,20 +808,6 @@
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 824882
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 911824,
-                    "ap2ID": 141247
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 561656,
-                    "ap2ID": 247736
                 }
             ],
             "fileTypeVersion": 1

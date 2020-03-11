@@ -677,8 +677,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.2752562225475842,
-                    "y": 0.4674329501915709,
+                    "x": 0.2781844802342606,
+                    "y": 0.4904214559386973,
                     "uniqueID": 141247,
                     "ioValues": []
                 },
@@ -718,6 +718,44 @@
                         {
                             "name": "diameter",
                             "ioValue": 285
+                        }
+                    ]
+                },
+                {
+                    "atomType": "RegularPolygon",
+                    "name": "RegularPolygon",
+                    "x": 0.24890190336749635,
+                    "y": 0.8582375478927203,
+                    "uniqueID": 561656,
+                    "ioValues": [
+                        {
+                            "name": "number of sides",
+                            "ioValue": 8
+                        },
+                        {
+                            "name": "diameter",
+                            "ioValue": 285
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.42093704245973645,
+                    "y": 0.793103448275862,
+                    "uniqueID": 247736,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -763,6 +801,13 @@
                     "ap2Primary": false,
                     "ap1ID": 911824,
                     "ap2ID": 141247
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 561656,
+                    "ap2ID": 247736
                 }
             ],
             "fileTypeVersion": 1
